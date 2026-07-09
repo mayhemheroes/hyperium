@@ -1,0 +1,6 @@
+project: hyperium
+target: fuzz_e2e
+
+cmds:
+  - cmd: /mayhem/fuzz_e2e
+    libfuzzer: true

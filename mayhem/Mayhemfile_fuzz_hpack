@@ -1,0 +1,6 @@
+project: hyperium
+target: fuzz_hpack
+
+cmds:
+  - cmd: /mayhem/fuzz_hpack
+    libfuzzer: true

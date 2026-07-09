@@ -1,0 +1,6 @@
+project: hyperium
+target: fuzz_client
+
+cmds:
+  - cmd: /mayhem/fuzz_client
+    libfuzzer: true
